@@ -70,3 +70,9 @@
   font-size: 2rem;
   color: var(--second-bg-color);
 }
+
+@media (max-width: 1370px) {
+  .portfolio-layer p {
+    display: none;
+  }
+}
