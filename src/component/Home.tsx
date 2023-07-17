@@ -8,7 +8,7 @@ const Home: React.FC = () => {
   const [isCopied, setIsCopied] = useState(false);
 
   const handleCopyEmail = () => {
-    const email = 'tu-correo-electronico@example.com';
+    const email = 'dether2011@gmail.com';
     navigator.clipboard.writeText(email)
       .then(() => {
         setIsCopied(true);
