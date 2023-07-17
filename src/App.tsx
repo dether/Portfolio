@@ -8,6 +8,7 @@ import Footer from "./component/Footer";
 import Portfolio from "./component/Portfolio";
 import Contact from "./component/Contact";
 import Script from "./script";
+import Skills from "./component/Skills";
 
 const App: React.FC = () => {
 	return (
@@ -17,6 +18,7 @@ const App: React.FC = () => {
 			<Home />
 			<About />
 			{/*     <Services /> */}
+			<Skills />
 			<Portfolio />
 			<Contact />
 

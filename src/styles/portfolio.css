@@ -1,3 +1,7 @@
+.portfolio {
+  background: var(--second-bg-color);
+}
+
 .portfolio h2 {
   margin-bottom: 4rem;
 }
@@ -43,6 +47,18 @@
   transition: 0.5s ease;
 }
 
+.buttons {
+  display:flex ;
+}
+
+.button {
+  padding: 0.5rem 1rem;
+}
+
+.button:hover a {
+  background: var(--main-color);
+  box-shadow: 0 0 0 0.1rem  var(--second-bg-color);
+}
 .portfolio-box:hover .portfolio-layer {
   transform: translateY(0);
 }
@@ -71,11 +87,15 @@
   color: var(--second-bg-color);
 }
 
+
+
 @media (max-width: 1370px) {
   .portfolio-layer p {
     display: none;
   }
 }
+
+
 
 @media (max-width: 580px) {
   .portfolio-layer h4 {

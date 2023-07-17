@@ -30,7 +30,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   #menu-icon {
     display: block;
   }
@@ -94,6 +94,15 @@
   .portfolio-container {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .footer {
+    flex-direction: column-reverse;
+  }
+
+  .footer p {
+    text-align: center;
+    margin-top: 2rem;
+  }
 }
 
 @media (max-width: 617px) {
@@ -110,6 +119,8 @@
   .contact form .input-box input {
     width: 100%;
   }
+
+  
 }
 
 @media (max-width: 365px) {

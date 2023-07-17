@@ -7,7 +7,7 @@ const Portfolio: React.FC = () => {
 	return (
 		<section className="portfolio" id="portfolio">
 			<h2 className="heading">
-			Mis <span>proyectos</span>
+				Mis <span>proyectos</span>
 			</h2>
 
 			<div className="portfolio-container">
@@ -23,13 +23,26 @@ const Portfolio: React.FC = () => {
 							permiten a los usuarios encontrar rápidamente los juegos que
 							desean explorar. Click en el botón para ver el repositorio.
 						</p>
-						<a
-							href="https://github.com/dether/PI-Videogames-main"
-							target="_blank"
-							rel="noopener noreferrer"
-						>
-							<i className="bx bx-link-external"></i>
-						</a>
+						<div className="buttons">
+							<div className="button">
+								<a
+									href="https://github.com/dether/PI-Videogames-main"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									<i className="bx bxs-folder-open"></i>
+								</a>
+							</div>
+							<div className="button">
+								<a
+									href="https://www.youtube.com/watch?v=F8AWVPozBX8"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									<i className="bx bx-movie-play"></i>
+								</a>
+							</div>
+						</div>
 					</div>
 				</div>
 
@@ -46,14 +59,26 @@ const Portfolio: React.FC = () => {
 							combinados, ordenamientos y bloqueo de usuarios... Click en el
 							botón para ver el repositorio.
 						</p>
-
-						<a
-							href="https://github.com/dether/facil-market-proyect"
-							target="_blank"
-							rel="noopener noreferrer"
-						>
-							<i className="bx bx-link-external"></i>
-						</a>
+						<div className="buttons">
+							<div className="button">
+							<a
+								href="https://github.com/dether/facil-market-proyect"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								<i className="bx bxs-folder-open"></i>
+							</a>
+							</div>
+							<div className="button">
+							<a
+								href="https://www.youtube.com/watch?v=XQNHgjvIK84&t=22s"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								<i className="bx bx-movie-play"></i>
+							</a>
+							</div>
+						</div>
 					</div>
 				</div>
 

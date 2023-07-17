@@ -8,7 +8,7 @@
     "build": "tsc && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "deploy" : "gh-pages -d dist"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "boxicons": "^2.1.4",
@@ -21,7 +21,9 @@
     "typewriter-effect": "^2.20.1"
   },
   "devDependencies": {
+    "@iconify/react": "^4.1.1",
     "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
     "@types/react-hamburger-menu": "^0.0.4",
     "@types/react-scroll": "^1.8.7",
     "@types/scrollreveal": "^0.0.8",

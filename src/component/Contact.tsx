@@ -52,7 +52,7 @@ const Contact: React.FC = () => {
 					/>
 					<input
 						type="email"
-						placeholder="Tu dirección de email"
+						placeholder="Dirección de email"
 						name="user_email"
 						id="email"
 						required

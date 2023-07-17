@@ -80,3 +80,7 @@ span {
 .btn:hover {
   box-shadow: none;
 }
+
+.copied-message {
+  position: top;
+}

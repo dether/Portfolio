@@ -43,7 +43,7 @@ const Navbar: React.FC = () => {
     <header className="header">
     <Link to="home" smooth={true} className={`logo ${currentSection === "home" ? "active" : ""}`}>Portafolio</Link>
 
-    {windowWidth <= 768 ? (
+    {windowWidth <= 900 ? (
       <HamburgerMenu
         isOpen={isOpen}
         menuClicked={() => setIsOpen(!isOpen)}
@@ -51,7 +51,7 @@ const Navbar: React.FC = () => {
         height={16}
         strokeWidth={2}
         rotate={0}
-        color="#000"
+        color="#ffff"
         borderRadius={0}
         animationDuration={0.5}
       />
@@ -60,6 +60,7 @@ const Navbar: React.FC = () => {
     <nav className={`navbar ${isOpen ? 'active' : ''}`}>
       <Link to="home" smooth={true} className={`nav-link ${currentSection === "home" ? "active" : ""}`}>Inicio</Link>
       <Link to="about" smooth={true} className={`nav-link ${currentSection === "about" ? "active" : ""}`}>Acerca de</Link>
+      <Link to="skills" smooth={true} className={`nav-link ${currentSection === "skills" ? "active" : ""}`}>Habilidades</Link>
       {/* <Link to="services" smooth={true} className={`nav-link ${currentSection === "services" ? "active" : ""}`}>Services</Link> */}
       <Link to="portfolio" smooth={true} className={`nav-link ${currentSection === "portfolio" ? "active" : ""}`}>Portafolio</Link>
       <Link to="contact" smooth={true} className={`nav-link ${currentSection === "contact" ? "active" : ""}`}>Contacto</Link>
