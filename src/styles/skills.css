@@ -51,7 +51,7 @@
   color: var(--main-color);
 }
 
-@media (max-width: 400px) {
+@media (max-width: 470px) {
   .skill-container{
     grid-template-columns: repeat(2, 1fr);
 
