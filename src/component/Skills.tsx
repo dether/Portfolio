@@ -11,7 +11,7 @@ const Skills = () => {
 			<div className="skill-container">
 				
 				<div className="skill">
-				<a href="https://lenguajejs.com" target="_blank" rel="noopener noreferrer">
+				<a href="https://developer.mozilla.org/es/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer">
 					<Icon icon="skill-icons:javascript" className="icon-large" />
 					<p className="skill-name">Javascript</p>
 					</a>
@@ -25,7 +25,7 @@ const Skills = () => {
 				</div>
 
 				<div className="skill">
-				<a href="https://es.legacy.reactjs.org/docs/getting-started.html" target="_blank" rel="noopener noreferrer">
+				<a href="https://es.react.dev/learn" target="_blank" rel="noopener noreferrer">
 					<Icon icon="skill-icons:react-light" className="icon-large"/>
 					<p className="skill-name">React</p>
 					</a>
@@ -46,9 +46,9 @@ const Skills = () => {
 				</div>
 
 				<div className="skill">
-				<a href="https://lenguajecss.com/" target="_blank" rel="noopener noreferrer">
+				<a href="https://developer.mozilla.org/es/docs/Web/CSS" target="_blank" rel="noopener noreferrer">
 					<Icon icon="logos:css-3" className="icon-large"/>
-					<p className="skill-name">Css</p>
+					<p className="skill-name">CSS</p>
 					</a>
 				</div>
 
@@ -88,7 +88,7 @@ const Skills = () => {
 				</div>
 
 				<div className="skill">
-				<a href="https://lenguajehtml.com/" target="_blank" rel="noopener noreferrer">
+				<a href="https://www.manualweb.net/html/documento-html/" target="_blank" rel="noopener noreferrer">
 					<Icon icon="logos:html-5" className="icon-large"/>
 					<p className="skill-name">HTML</p>
 					</a>

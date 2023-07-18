@@ -38,8 +38,16 @@
   margin-top: 2rem;
   cursor: pointer;
 }
+/* evitamos que aparezca el aumento y decremento del input de numero de movil */
 .contact form input[type="number"]::-webkit-inner-spin-button,
 .contact form input[type="number"]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
+}
+/* evitamos que cambie el color del input con el autocompletado */
+.contact form .input-box input:-webkit-autofill,
+.contact form textarea:-webkit-autofill {
+  -webkit-text-fill-color: var(--text-color); /* Color de texto */
+  -webkit-box-shadow: 0 0 0px 1000px var(--second-bg-color) inset; /* Color de fondo */
+  transition: background-color 5000s ease-in-out 0s; /* Retrasar la transición para evitar cambios rápidos de color */
 }
