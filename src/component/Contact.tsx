@@ -44,6 +44,8 @@ const Contact: React.FC = () => {
 				Contáctame <span>!</span>
 			</h2>
 
+		<div className="contactt">
+
 			<form ref={form} action="#" onSubmit={handleSubmit}>
 				<div className="input-box">
 					<input
@@ -88,6 +90,7 @@ const Contact: React.FC = () => {
 				></textarea>
 				<input type="submit" value="Enviar email" className="btn" />
 			</form>
+			</div>
 		</section>
 	);
 };

@@ -1,6 +1,5 @@
 import { Icon } from "@iconify/react";
 import "../styles/skills.css";
-import json from "../assets/json.png"
 
 const Skills = () => {
 	return (
