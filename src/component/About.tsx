@@ -21,18 +21,6 @@ const About: React.FC = () => {
 					estado colaborando en el negocio familiar, administrando un mercado,
 					una tienda de ropa y el alquiler de departamentos. Mi enfoque
 					principal es crecer y desarrollarme como desarrollador web Fullstack. 
-					{/* Mis algunas de mis habilidades técnicas incluyen:
-				</p>
-        <a href="#" target="_blank" rel="noopener noreferrer"><i className="bx bxl-javascript"></i></a>
-        <a href="#" target="_blank" rel="noopener noreferrer"><i className="bx bxl-typescript"></i></a>
-        <a href="#" target="_blank" rel="noopener noreferrer"><i className="bx bxl-react"></i></a>
-        <a href="#" target="_blank" rel="noopener noreferrer"><i className="bx bxl-redux"></i></a>
-        <a href="#" target="_blank" rel="noopener noreferrer"><i className="bx bxl-nodejs"></i></a>
-        <a href="#" target="_blank" rel="noopener noreferrer"><i className="bx bxl-postgresql"></i></a>
-        <a href="#" target="_blank" rel="noopener noreferrer"><i className="bx bxl-html5"></i></a>
-				<a href="#" target="_blank" rel="noopener noreferrer"><i className="bx bxl-css3"></i></a>
-				<a href="#" target="_blank" rel="noopener noreferrer"><i className="bx bxl-sass"></i></a>
-				<p> */}
 					Estoy buscando oportunidades que me permitan adquirir experiencia
 					profesional y seguir mejorando como desarrollador web. Estoy abierto a
 					nuevas propuestas y disponible para contactar a través de mi correo

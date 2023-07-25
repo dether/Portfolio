@@ -1,5 +1,6 @@
 import { Icon } from "@iconify/react";
 import "../styles/skills.css";
+import json from "../assets/json.png"
 
 const Skills = () => {
 	return (
@@ -100,6 +101,21 @@ const Skills = () => {
 					<p className="skill-name">Insomnia</p>
 					</a>
 				</div>
+
+				<div className="skill">
+				<a href="https://www.npmjs.com/package/bcrypt" target="_blank" rel="noopener noreferrer">
+					<Icon icon="twemoji:letter-b" className="icon-large" />
+					<p className="skill-name">Bcrypt</p>
+					</a>
+				</div>
+
+				<div className="skill">
+				<a href="https://jwt.io/" target="_blank" rel="noopener noreferrer">
+					<Icon icon="simple-icons:jsonwebtokens" className="icon-large" />
+					<p className="skill-name">JSON Web Token</p>
+					</a>
+				</div>
+
 			</div>
 		</section>
 	);

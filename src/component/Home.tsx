@@ -2,13 +2,14 @@ import React, { useState } from 'react';
 import ale from "../assets/dether.png"
 import "../styles/home.css"
 import useTypewriter from 'react-typewriter-hook';
+const EMAIL = import.meta.env.VITE_EMAIL;
 
 const Home: React.FC = () => {
   const typewriterText = useTypewriter('Fullstack Developer');
   const [isCopied, setIsCopied] = useState(false);
 
   const handleCopyEmail = () => {
-    const email = 'dether2011@gmail.com';
+    const email = EMAIL;
     navigator.clipboard.writeText(email)
       .then(() => {
         setIsCopied(true);
@@ -26,7 +27,12 @@ const Home: React.FC = () => {
         <h3>Hola, mi nombre es</h3>
         <h1>Alejandro Vargas</h1>
         <h3>y soy <span className="multiple-text">{typewriterText}</span></h3>
-        <p>Me apasiona el aprendizaje constante y la exploración de nuevas tecnologías en el campo de la programación. Mi objetivo es afrontar retos que me permitan crecer y desarrollarme en este apasionante campo. Soy una persona colaboradora y disfruto trabajando en equipo para lograr resultados satisfactorios. Siempre estoy emocionado de asumir nuevos proyectos y contribuir a un equipo dinámico. ¡Estoy listo para crear soluciones innovadoras juntos!</p>
+        <p>
+        Un apasionado del aprendizaje constante y la exploración de nuevas tecnologías en el campo de la programación. Mi objetivo es enfrentar retos que me permitan crecer y desarrollarme como desarrollador web Fullstack. Con background en administración y atención al cliente, he desarrollado habilidades interpersonales que me permiten colaborar efectivamente en equipos. </p>
+        <p>He trabajado tanto en proyectos individuales como grupales, utilizando metodologías ágiles como Scrum, y dominando tecnologías como Typescript, React, y Express. </p>
+        <p>Actualmente, estoy buscando oportunidades que me permitan adquirir experiencia profesional y seguir mejorando mis habilidades en el desarrollo web.</p>
+        <p>¡Espero poder aportar mis conocimientos y experiencia a tu equipo y lograr cosas increíbles juntos!</p>
+        {/* <p>Me apasiona el aprendizaje constante y la exploración de nuevas tecnologías en el campo de la programación. Mi objetivo es afrontar retos que me permitan crecer y desarrollarme en este apasionante campo. Soy una persona colaboradora y disfruto trabajando en equipo para lograr resultados satisfactorios. Siempre estoy emocionado de asumir nuevos proyectos y contribuir a un equipo dinámico. ¡Estoy listo para crear soluciones innovadoras juntos!</p> */}
         <div className="social-media">
           {/* <a href="#" target="_blank" rel="noopener noreferrer"><i className='bx bxl-facebook' ></i></a> */}
           <a href="https://twitter.com/Dether_49" target="_blank" rel="noopener noreferrer"><i className='bx bxl-twitter' ></i></a>

@@ -21,7 +21,7 @@ const Portfolio: React.FC = () => {
 							contiene hasta 100 títulos. Implementé funcionalidades clave, como
 							búsquedas por nombre, filtrados combinados y ordenamientos, que
 							permiten a los usuarios encontrar rápidamente los juegos que
-							desean explorar. Click en el botón para ver el repositorio.
+							desean explorar.
 						</p>
 						<div className="buttons">
 							<div className="button">
@@ -56,8 +56,7 @@ const Portfolio: React.FC = () => {
 							compra y venta de productos. Con esta app, los usuarios pueden
 							buscar y publicar productos de manera conveniente.Incluye
 							autenticación de usuarios, búsquedas avanzadas, filtros
-							combinados, ordenamientos y bloqueo de usuarios... Click en el
-							botón para ver el repositorio.
+							combinados, ordenamientos y bloqueo de usuarios.
 						</p>
 						<div className="buttons">
 							<div className="button">

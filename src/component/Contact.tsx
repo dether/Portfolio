@@ -1,8 +1,11 @@
 import React, { useRef } from "react";
 import "../styles/contact.css";
 import emailjs from "emailjs-com";
+const id = import.meta.env.VITE_ID;
+const service = import.meta.env.VITE_SERVICE
+const template = import.meta.env.VITE_TEMPLATE
 
-emailjs.init("nzvrj9po8XlbEr_nS");
+emailjs.init(id);
 
 const Contact: React.FC = () => {
 	const form = useRef<HTMLFormElement>(null);
@@ -14,10 +17,10 @@ const Contact: React.FC = () => {
 		if (form.current) {
 			emailjs
 				.sendForm(
-					"service_8yk71dy",
-					"template_n13lllq",
+					service,
+					template,
 					form.current,
-					"nzvrj9po8XlbEr_nS"
+					id
 				)
 				.then((result) => {
 					alert("¡Mensaje enviado con éxito!");
@@ -90,37 +93,3 @@ const Contact: React.FC = () => {
 };
 
 export default Contact;
-
-/* 
-return (
-		<section className="contact" id="contact">
-			<h2 className="heading">
-			<span>¡</span>Contáctame <span>!</span>
-			</h2>
-
-			<form action="#" onSubmit={handleSubmit}>
-				<div className="input-box">
-					<input type="text" placeholder="Nombre completo" id="fullName" />
-					<input type="email" placeholder="Dirección de email" id="email" />
-				</div>
-
-				<div className="input-box">
-					<input type="number" placeholder="Número de teléfono móvil" id="mobileNumber" />
-					<input type="text" placeholder="Asunto del email" id="emailSubject" />
-				</div>
-				<textarea
-					name=""
-					id="message"
-					cols={30}
-					rows={10}
-					placeholder="Tu mensaje"
-				></textarea>
-				<input type="submit" value="Enviar mensaje" className="btn" />
-			</form>
-		</section>
-	);
-};
-
-export default Contact;
-
-*/
