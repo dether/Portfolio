@@ -58,7 +58,7 @@ const Navbar: React.FC = () => {
     ) : null}
 
     <nav className={`navbar ${isOpen ? 'active' : ''}`}>
-      <Link to="home" smooth={true} className={`nav-link ${currentSection === "home" ? "active" : ""}`}>Inicio</Link>
+      <Link to="home" smooth={true} className={`nav-link ${currentSection === "home" ? "active" : ""}`}>Acerca de</Link>
       {/* <Link to="about" smooth={true} className={`nav-link ${currentSection === "about" ? "active" : ""}`}>Acerca de</Link> */}
       <Link to="skills" smooth={true} className={`nav-link ${currentSection === "skills" ? "active" : ""}`}>Habilidades</Link>
       {/* <Link to="services" smooth={true} className={`nav-link ${currentSection === "services" ? "active" : ""}`}>Services</Link> */}
