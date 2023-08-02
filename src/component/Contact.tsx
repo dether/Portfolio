@@ -2,18 +2,17 @@ import React, { useRef } from "react";
 import "../styles/contact.css";
 import emailjs from "emailjs-com";
 const id = import.meta.env.VITE_ID;
-const service = import.meta.env.VITE_SERVICE
-const template = import.meta.env.VITE_TEMPLATE
+const service = import.meta.env.VITE_SERVICE;
+const template = import.meta.env.VITE_TEMPLATE;
 
 emailjs.init(id);
 
 const Contact: React.FC = () => {
 	const form = useRef<HTMLFormElement>(null);
-
-
+	
+	
 	const handleSubmit = (event: React.FormEvent) => {
 		event.preventDefault();
-
 		if (form.current) {
 			emailjs
 				.sendForm(
