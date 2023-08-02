@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import Navbar from "./component/Navbar";
 import Home from "./component/Home";
-/* import About from "./component/About"; */
+import About from "./component/About";
 import Footer from "./component/Footer";
 /* import Services from "./component/Services"; */
 import Portfolio from "./component/Portfolio";
@@ -16,7 +16,7 @@ const App: React.FC = () => {
 			<Navbar />
 
 			<Home />
-{/* 			<About /> */}
+			<About />
 			{/*     <Services /> */}
 			<Skills />
 			<Portfolio />

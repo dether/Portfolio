@@ -13,7 +13,12 @@ const About: React.FC = () => {
 				<h2 className="heading">
 					Acerca de <span>mí</span>
 				</h2>
-				<h3>Fullstack Web Developer!</h3>
+				<p>
+        Soy un apasionado del aprendizaje constante y la exploración de nuevas tecnologías en el campo de la programación. Mi objetivo es enfrentar retos que me permitan crecer y desarrollarme como desarrollador web Fullstack. Con background en administración y atención al cliente, he desarrollado habilidades interpersonales que me permiten colaborar efectivamente en equipos. </p>
+        <p>He trabajado tanto en proyectos individuales como grupales, utilizando metodologías ágiles como Scrum, y dominando tecnologías como Typescript, React, y Express. </p>
+        <p>Actualmente, estoy buscando oportunidades que me permitan adquirir experiencia profesional y seguir mejorando mis habilidades en el desarrollo web.</p>
+        <p>¡Espero poder aportar mis conocimientos y experiencia a tu equipo y lograr cosas increíbles juntos!</p>
+				{/* <h3>Fullstack Web Developer!</h3>
 				<p>
 					Hola, soy Alejandro, una persona apasionada por el aprendizaje
 					constante y la exploración de nuevas tecnologías en el campo de la
@@ -26,7 +31,7 @@ const About: React.FC = () => {
 					nuevas propuestas y disponible para contactar a través de mi correo
 					electrónico y mi número de teléfono. ¡Espero poder contribuir a tu
 					equipo y hacer cosas increíbles juntos!
-				</p>
+				</p> */}
 				{/* <a href="#" className="btn">
 					Read More
 				</a> */}

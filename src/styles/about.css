@@ -35,3 +35,19 @@
   font-size: 1.6rem;
   margin: 2rem 0 3rem;
 }
+
+@media (max-width: 400px) {
+  .about-img img {
+    width: 50vw;
+    border-radius: 50% / 30% 40%;
+    height: 60vw;
+    object-fit: cover; 
+  }
+
+  .about-content p {
+    font-size: 1.6rem;
+    margin: 2rem 0 3rem;
+    padding: 1rem;
+  }
+
+}
