@@ -18,23 +18,6 @@ const About: React.FC = () => {
         <p>He trabajado tanto en proyectos individuales como grupales, utilizando metodologías ágiles como Scrum, y dominando tecnologías como Typescript, React, y Express. </p>
         <p>Actualmente, estoy buscando oportunidades que me permitan adquirir experiencia profesional y seguir mejorando mis habilidades en el desarrollo web.</p>
         <p>¡Espero poder aportar mis conocimientos y experiencia a tu equipo y lograr cosas increíbles juntos!</p>
-				{/* <h3>Fullstack Web Developer!</h3>
-				<p>
-					Hola, soy Alejandro, una persona apasionada por el aprendizaje
-					constante y la exploración de nuevas tecnologías en el campo de la
-					programación. Además de mi enfoque en el desarrollo web, también he
-					estado colaborando en el negocio familiar, administrando un mercado,
-					una tienda de ropa y el alquiler de departamentos. Mi enfoque
-					principal es crecer y desarrollarme como desarrollador web Fullstack. 
-					Estoy buscando oportunidades que me permitan adquirir experiencia
-					profesional y seguir mejorando como desarrollador web. Estoy abierto a
-					nuevas propuestas y disponible para contactar a través de mi correo
-					electrónico y mi número de teléfono. ¡Espero poder contribuir a tu
-					equipo y hacer cosas increíbles juntos!
-				</p> */}
-				{/* <a href="#" className="btn">
-					Read More
-				</a> */}
 			</div>
 		</section>
 	);

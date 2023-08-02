@@ -70,23 +70,3 @@ const Navbar: React.FC = () => {
 };
 
 export default Navbar;
-/* import React from 'react';
-import "../styles/navbar.css"
-
-const Navbar: React.FC = () => {
-  return (
-    <header className="header">
-      <a href="#" className="logo">Portfolio</a>
-      <i className="bx bx-menu" id="menu-icon"></i>
-      <nav className="navbar">
-        <a href="#home" className="active">Home</a>
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </header>
-  );
-};
-
-export default Navbar; */

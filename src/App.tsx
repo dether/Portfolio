@@ -10,7 +10,10 @@ import Contact from "./component/Contact";
 import Script from "./script";
 import Skills from "./component/Skills";
 
+
 const App: React.FC = () => {
+
+
 	return (
 		<>
 			<Navbar />

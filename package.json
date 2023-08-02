@@ -19,6 +19,7 @@
     "react-scroll": "^1.8.9",
     "react-typewriter-hook": "^1.0.1",
     "scrollreveal": "^4.0.9",
+    "sweetalert2": "^11.7.20",
     "typewriter-effect": "^2.20.1"
   },
   "devDependencies": {

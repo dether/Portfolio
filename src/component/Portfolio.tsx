@@ -81,20 +81,6 @@ const Portfolio: React.FC = () => {
 					</div>
 				</div>
 
-				{/* <div className="portfolio-box">
-					<img src={pi} alt="" />
-					<div className="portfolio-layer">
-						<h4>otra app</h4>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta
-							rem culpa unde vel temporibus blanditiis totam dignissimos
-							laudantium, doloremque eius.
-						</p>
-						<a href="#">
-							<i className="bx bx-link-external"></i>
-						</a>
-					</div>
-				</div> */}
 			</div>
 		</section>
 	);
