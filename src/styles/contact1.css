@@ -31,7 +31,7 @@
 }
 
 .contact form .input-box input {
-  width: 100%;
+  width: 49%;
 }
 
 .contact form textarea {
@@ -44,28 +44,18 @@
   background-color: var(--main-color);
 }
 
-.contact form .btn:hover {
-  box-shadow: none;
-}
-
 .contact form .btn-disabled {
-  background-color: var(--text-color);
+  background-color: white;
   margin-top: 2rem;
   cursor: pointer;
 }
-
-.btn-disabled:hover {
-  box-shadow: none;
-}
-
-/* Estilo para el input de número de móvil */
+/* evitamos que aparezca el aumento y decremento del input de numero de movil */
 .contact form input[type="number"]::-webkit-inner-spin-button,
 .contact form input[type="number"]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
-
-/* Estilo para el autocompletado */
+/* evitamos que cambie el color del input con el autocompletado */
 .contact form .input-box input:-webkit-autofill,
 .contact form textarea:-webkit-autofill {
   -webkit-text-fill-color: var(--text-color); /* Color de texto */
@@ -73,48 +63,19 @@
   transition: background-color 5000s ease-in-out 0s; /* Retrasar la transición para evitar cambios rápidos de color */
 }
 
-/* Estilos para los mensajes de error */
-.error-message {
-  font-size: 14px;
-  color: red;
-  margin-top: 4px;
-}
-
-/* Estilos para los iconos de éxito y error en SweetAlert */
 .swal-custom-style {
-  background-color: var(--second-bg-color);
-  color: var(--text-color);
-  width: 20%;
+  background-color: var(--second-bg-color); 
+  color: var(--text-color);  
+  width: 20%; 
   height: 60%;
 }
 
+
 .swal-icon--success .swal-icon--success__line {
-  stroke: #00ff00;
+  stroke: #00ff00; 
 }
 
+/* Estilo para el icono de error */
 .swal-icon--error .swal-icon--error__line {
   stroke: var(--main-color);
-}
-
-/* Estilos para los contenedores que agrupan inputs con sus mensajes de error */
-.contact form .input-container {
-  width: 49%;
-  position: relative;
-  
-}
-
-.error-message-textarea{
-  font-size: 1.3rem; /* Reducimos el tamaño del mensaje para mantenerlo más discreto */
-  color: red;
-  margin-top: 4px; /* Agregamos un pequeño margen superior */
-  display: flex;
-  flex-direction: column; /* Agregamos dirección de columna para centrar los elementos */
-  align-items: center; /* Centramos los elementos horizontalmente */
-}
-
-
-.contact form .input-container .error-message {
-  font-size: 1.3rem; /* Reducimos el tamaño del mensaje para mantenerlo más discreto */
-  color: red;
-  margin-top: 4px; /* Agregamos un pequeño margen superior */
 }
