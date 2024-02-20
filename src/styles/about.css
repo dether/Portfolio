@@ -1,53 +1,51 @@
 .about {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
-  background: var(--second-bg-color);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
+	background: var(--second-bg-color);
 }
 
 .about-img img {
+	border-radius: 50% / 30% 40%; /* Ajusta los valores según tus preferencias */
+	/* Otros estilos opcionales */
+	width: 29vw; /* Ajusta el ancho de la imagen según tus preferencias */
+	height: 40vw; /* Ajusta la altura de la imagen según tus preferencias */
+	object-fit: cover; /* Ajusta cómo se ajusta la imagen dentro del contenedor */
 
-    border-radius: 50% / 30% 40%; /* Ajusta los valores según tus preferencias */
-    /* Otros estilos opcionales */
-    width: 35vw; /* Ajusta el ancho de la imagen según tus preferencias */
-    height: 40vw; /* Ajusta la altura de la imagen según tus preferencias */
-    object-fit: cover; /* Ajusta cómo se ajusta la imagen dentro del contenedor */
-
-  /* width: 35vw; */
+	/* width: 35vw; */
 }
 
 .heading {
-  text-align: center;
-  font-size: 4.5rem;
+	text-align: center;
+	font-size: 4.5rem;
 }
 
 .about-content h2 {
-  text-align: left;
-  line-height: 1.2;
+	text-align: left;
+	line-height: 1.2;
 }
 
 .about-content h3 {
-  font-size: 2.6rem;
+	font-size: 2.6rem;
 }
 
 .about-content p {
-  font-size: 1.6rem;
-  margin: 2rem 0 3rem;
+	font-size: 1.6rem;
+	margin: 2rem 0 3rem;
 }
 
 @media (max-width: 400px) {
-  .about-img img {
-    width: 50vw;
-    border-radius: 50% / 30% 40%;
-    height: 60vw;
-    object-fit: cover; 
-  }
+	.about-img img {
+		width: 50vw;
+		border-radius: 50% / 30% 40%;
+		height: 60vw;
+		object-fit: cover;
+	}
 
-  .about-content p {
-    font-size: 1.6rem;
-    margin: 2rem 0 3rem;
-    padding: 1rem;
-  }
-
+	.about-content p {
+		font-size: 1.6rem;
+		margin: 2rem 0 3rem;
+		padding: 1rem;
+	}
 }

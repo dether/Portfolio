@@ -1,59 +1,56 @@
 .skills {
-  /* margin-bottom: 4rem; */
-  background: var(--bg-color);
+	padding-bottom: 8rem;
+	background: var(--bg-color);
 }
 
-.skills h2{
-  margin-bottom: 4rem;
+.skills h2 {
+	margin-bottom: 4rem;
 }
 
 .skill-container {
-  display: grid;
-  text-align: center;
-  padding: 0 4rem;
-  place-items: center;
-  gap: 2.5rem;
-  grid-template-columns: repeat(3, 1fr);
+	display: grid;
+	text-align: center;
+	padding: 0 4rem;
+	place-items: center;
+	gap: 2.5rem;
+	grid-template-columns: repeat(3, 1fr);
 }
 
 .skill {
-  display: grid;
-  margin-bottom: 20px; /* Ajusta el margen según tus preferencias */
+	display: grid;
+	margin-bottom: 20px; /* Ajusta el margen según tus preferencias */
 }
 
 .icon-large {
-  font-size: 78px;
-  transition: transform 0.5s ease;
-  color: var(--text-color);
-
+	font-size: 78px;
+	transition: transform 0.5s ease;
+	color: var(--text-color);
 }
 
 .skill:hover .icon-large {
-  transform: translateY(-20px);
-  /* filter: drop-shadow(5px 5px 5px var(--text-color)); */
-
+	transform: translateY(-20px);
+	/* filter: drop-shadow(5px 5px 5px var(--text-color)); */
 }
 
 .skill-name {
-  margin-top: 1.2rem;
-  font-size: 1.7rem;
-  transition: color 0.5s ease;
-  color: var(--text-color);
+	margin-top: 1.2rem;
+	font-size: 1.7rem;
+	transition: color 0.5s ease;
+	color: var(--text-color);
 }
 
 .skill:hover .skill-name {
-  color: var(--main-color);
-  transform: scale(1.1);
+	color: var(--main-color);
+	transform: scale(1.1);
 }
 
 .skill:hover .skill-name {
-  transform: translateY(-5px);
-  color: var(--main-color);
+	transform: translateY(-5px);
+	color: var(--main-color);
 }
 
 @media (max-width: 470px) {
-  .skill-container{
-    grid-template-columns: repeat(2, 1fr);
-
-  }
+	.skill-container {
+		grid-template-columns: repeat(2, 1fr);
+	}
 }
