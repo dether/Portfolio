@@ -43,7 +43,7 @@ const Home: React.FC = () => {
 								typewriter
 									.pauseFor(1000)
 									.deleteAll()
-									.typeString("Fullstack Developer") // Eliminamos la primera aparición de "Fullstack Developer"
+									.typeString("Full Stack Developer") // Eliminamos la primera aparición de "Fullstack Developer"
 									.pauseFor(1000)
 									.deleteAll()
 									.start();
@@ -53,13 +53,13 @@ const Home: React.FC = () => {
 				</h3>
 
 				<div className="social-media">
-					<a
+					{/* <a
 						href="https://twitter.com/Dether_49"
 						target="_blank"
 						rel="noopener noreferrer"
 					>
 						<i className="bx bxl-twitter"></i>
-					</a>
+					</a> */}
 					<a
 						href="https://github.com/dether"
 						target="_blank"
@@ -87,7 +87,7 @@ const Home: React.FC = () => {
 					{isCopied && <span className="copied-message">Copiado</span>}
 				</div>
 				<a
-					href="https://drive.google.com/file/d/1jYvgSEpYPbWCyXHJ1uSuK-nV9qGPYcxd/view"
+					href="https://drive.google.com/file/d/1rxsUC6UJSnmBtS_wm_JejwrQEb3Uahd5/view?usp=sharing"
 					target="_blank"
 					rel="noopener noreferrer"
 					className="btn"
