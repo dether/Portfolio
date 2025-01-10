@@ -1,0 +1,83 @@
+{
+  "hash": "a24df352",
+  "browserHash": "08d1b2b4",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "bc798b6a",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "94196f3a",
+      "needsInterop": true
+    },
+    "react-scroll/modules": {
+      "src": "../../node_modules/react-scroll/modules/index.js",
+      "file": "react-scroll_modules.js",
+      "fileHash": "40c1ab3e",
+      "needsInterop": true
+    },
+    "react-hamburger-menu": {
+      "src": "../../node_modules/react-hamburger-menu/dist/HamburgerMenu.js",
+      "file": "react-hamburger-menu.js",
+      "fileHash": "302448c8",
+      "needsInterop": true
+    },
+    "typewriter-effect": {
+      "src": "../../node_modules/typewriter-effect/dist/react.js",
+      "file": "typewriter-effect.js",
+      "fileHash": "738c4a27",
+      "needsInterop": true
+    },
+    "react-scroll": {
+      "src": "../../node_modules/react-scroll/modules/index.js",
+      "file": "react-scroll.js",
+      "fileHash": "751bbe68",
+      "needsInterop": true
+    },
+    "scrollreveal": {
+      "src": "../../node_modules/scrollreveal/dist/scrollreveal.es.js",
+      "file": "scrollreveal.js",
+      "fileHash": "06c822fc",
+      "needsInterop": false
+    },
+    "@iconify/react": {
+      "src": "../../node_modules/@iconify/react/dist/iconify.mjs",
+      "file": "@iconify_react.js",
+      "fileHash": "f3d35b74",
+      "needsInterop": false
+    },
+    "emailjs-com": {
+      "src": "../../node_modules/emailjs-com/es/index.js",
+      "file": "emailjs-com.js",
+      "fileHash": "f42ba3ef",
+      "needsInterop": false
+    },
+    "sweetalert2": {
+      "src": "../../node_modules/sweetalert2/dist/sweetalert2.all.js",
+      "file": "sweetalert2.js",
+      "fileHash": "77d984cc",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "chunk-B2QDMNST": {
+      "file": "chunk-B2QDMNST.js"
+    },
+    "chunk-DZXRV6RW": {
+      "file": "chunk-DZXRV6RW.js"
+    },
+    "chunk-YU7MVGIP": {
+      "file": "chunk-YU7MVGIP.js"
+    },
+    "chunk-ZAUFE7H7": {
+      "file": "chunk-ZAUFE7H7.js"
+    },
+    "chunk-UXIASGQL": {
+      "file": "chunk-UXIASGQL.js"
+    }
+  }
+}

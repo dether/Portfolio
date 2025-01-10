@@ -14,26 +14,37 @@ const About: React.FC = () => {
 					Acerca de <span>mí</span>
 				</h2>
 				<p>
-					Soy un apasionado del aprendizaje constante y la exploración de nuevas
-					tecnologías en el campo de la programación. Mi objetivo es enfrentar
-					retos que me permitan crecer y desarrollarme como desarrollador web
-					Fullstack. Con background en administración y atención al cliente, he
-					desarrollado habilidades interpersonales que me permiten colaborar
-					efectivamente en equipos.{" "}
+					Soy un apasionado del aprendizaje continuo y de explorar
+					nuevas tecnologías en el campo de la programación. Mi
+					objetivo es enfrentar retos que me permitan crecer y
+					desarrollarme como desarrollador web Fullstack. Con una
+					formación en administración y atención al cliente, he
+					desarrollado habilidades interpersonales que me permiten
+					colaborar eficazmente en equipos.{" "}
 				</p>
 				<p>
-					He trabajado tanto en proyectos individuales como grupales, utilizando
-					metodologías ágiles como Scrum, y dominando tecnologías como
-					Typescript, React, y Express.{" "}
+					Actualmente, soy estudiante de Técnico Superior en
+					Desarrollo de Software en el Instituto de Educación Superior
+					Juan Mantovani, donde completé el primer año del cursado con
+					todas las materias aprobadas. En esta etapa, reforcé mis
+					bases de programación, estructuras de datos, algoritmos y
+					bases de datos. Además, participé en prácticas
+					profesionalizantes en las que, junto a mis compañeros de
+					primer año, trabajamos en el desarrollo y venta de una
+					aplicación para una organización deportiva, sin fines de
+					lucro. Durante esta experiencia, apliqué
+					metodologías ágiles como Scrum.{" "}
 				</p>
 				<p>
-					Actualmente, estoy buscando oportunidades que me permitan adquirir
-					experiencia profesional y seguir mejorando mis habilidades en el
-					desarrollo web.
+					He trabajado en proyectos tanto individuales como grupales,
+					utilizando tecnologías como Typescript, React y Express, y
+					estoy buscando oportunidades que me permitan adquirir
+					experiencia profesional mientras sigo perfeccionando mis
+					habilidades.
 				</p>
 				<p>
-					¡Espero poder aportar mis conocimientos y experiencia a tu equipo y
-					lograr cosas increíbles juntos!
+					¡Estoy listo para aportar mis conocimientos y contribuir a
+					tu equipo para lograr grandes resultados juntos!
 				</p>
 			</div>
 		</section>
