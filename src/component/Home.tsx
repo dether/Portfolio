@@ -1,14 +1,14 @@
-import React, { useState } from "react";
+import React from "react";
 import Typewriter from "typewriter-effect";
 import ale from "../assets/dether3.png";
 import "../styles/home.css";
 
-const EMAIL = import.meta.env.VITE_EMAIL;
+//const EMAIL = import.meta.env.VITE_EMAIL;
 
 const Home: React.FC = () => {
-	const [isCopied, setIsCopied] = useState(false);
+	/*const [isCopied, setIsCopied] = useState(false);
 
-	/* const handleCopyEmail = () => {
+	 const handleCopyEmail = () => {
 		const email = EMAIL;
 		navigator.clipboard
 			.writeText(email)
