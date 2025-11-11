@@ -22,8 +22,15 @@
 	display: flex;
 }
 
+.portfolio-box {
+	height: 350px; /* o el alto que prefieras */
+
+}
+
 .portfolio-box img {
 	width: 100%;
+	height: 100%;
+	object-fit: cover;
 	transition: 0.5s ease;
 }
 
@@ -89,12 +96,19 @@
 }
 
 @media (max-width: 1370px) {
+
 	.portfolio-layer p {
 		display: none;
 	}
 }
 
 @media (max-width: 580px) {
+
+	.portfolio-box{
+		height: 150px;
+		width: 150px;
+	}
+
 	.portfolio-layer h4 {
 		display: none;
 	}

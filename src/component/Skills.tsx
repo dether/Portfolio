@@ -240,6 +240,86 @@ const Skills = () => {
 						<p className="skill-name">Postman</p>
 					</a>
 				</div>
+				<div className="skill">
+					<a
+						href="https://astro.build/"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+					<Icon icon="logos:astro-icon" className="icon-large" />
+						<p className="skill-name">Astro</p>
+						</a>
+				</div>
+				<div className="skill">
+					<a
+						href="https://www.figma.com/es-es/"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+					<Icon icon="logos:figma" className="icon-large" />
+						<p className="skill-name">Figma</p>
+						</a>
+				</div>
+				<div className="skill">
+					<a
+						href="https://fastapi.tiangolo.com/"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+					<Icon icon="logos:fastapi" className="icon-large" />
+					<p className="skill-name">FastAPI</p>
+					</a>
+				</div>
+				<div className="skill">
+					<a
+						href="https://www.django-rest-framework.org/"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+					<Icon icon="logos:django-icon" className="icon-large" />
+					<p className="skill-name">Django</p>
+					</a>
+				</div>
+				<div className="skill">
+					<a
+						href="https://www.mongodb.com/"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+					<Icon icon="devicon:mongodb-wordmark" className="icon-large" />
+					<p className="skill-name">MongoDB</p>
+					</a>
+				</div>
+				<div className="skill">
+					<a
+						href="https://developer.android.com"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+					<Icon icon="logos:android-icon" className="icon-large" />
+					<p className="skill-name">Android Studio</p>
+					</a>
+				</div>
+				<div className="skill">
+					<a
+						href="https://www.java.com/es/"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+					<Icon icon="logos:java" className="icon-large" />
+						<p className="skill-name">Java</p>
+					</a>
+				</div>
+				<div className="skill">
+					<a
+						href="https://kotlinlang.org/"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+					<Icon icon="logos:kotlin-icon" className="icon-large" />
+					<p className="skill-name">Kotlin</p>
+					</a>
+				</div>
 
 			</div>
 		</section>

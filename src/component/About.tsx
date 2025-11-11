@@ -1,12 +1,13 @@
 import React from "react";
-import ale from "../assets/Dether-removebg-preview.png";
+//import ale from "../assets/Dether-removebg-preview.png";
+import logo from "../assets/ale_2025.png";
 import "../styles/about.css";
 
 const About: React.FC = () => {
 	return (
 		<section className="about" id="about">
 			<div className="about-img">
-				<img src={ale} alt=""></img>
+				<img src={logo} alt=""></img>
 			</div>
 
 			<div className="about-content">
@@ -14,37 +15,16 @@ const About: React.FC = () => {
 					Acerca de <span>mí</span>
 				</h2>
 				<p>
-					Soy un apasionado del aprendizaje continuo y de explorar
-					nuevas tecnologías en el campo de la programación. Mi
-					objetivo es enfrentar retos que me permitan crecer y
-					desarrollarme como desarrollador web Fullstack. Con una
-					formación en administración y atención al cliente, he
-					desarrollado habilidades interpersonales que me permiten
-					colaborar eficazmente en equipos.{" "}
+					Soy Full Stack Developer en formación, con enfoque en desarrollo web. Actualmente estudio la Tecnicatura Superior en Desarrollo de Software (2° año) y participo en proyectos académicos reales donde aplico metodologías ágiles y trabajo en equipo.{" "}
 				</p>
 				<p>
-					Actualmente, soy estudiante de Técnico Superior en
-					Desarrollo de Software en el Instituto de Educación Superior
-					Juan Mantovani, donde completé el primer año del cursado con
-					todas las materias aprobadas. En esta etapa, reforcé mis
-					bases de programación, estructuras de datos, algoritmos y
-					bases de datos. Además, participé en prácticas
-					profesionalizantes en las que, junto a mis compañeros de
-					primer año, trabajamos en el desarrollo y venta de una
-					aplicación para una organización deportiva, sin fines de
-					lucro. Durante esta experiencia, apliqué
-					metodologías ágiles como Scrum.{" "}
+					Entre febrero de 2025 y la actualidad colaboro en el desarrollo de <strong>SAM</strong>, una plataforma institucional para gestión académica (en progreso). Además, completé la segunda etapa del Informatorio donde desarrollé <strong>IntéGrate</strong>, una red social con sistema de autenticación, publicaciones y comentarios.{" "}
 				</p>
 				<p>
-					He trabajado en proyectos tanto individuales como grupales,
-					utilizando tecnologías como Typescript, React y Express, y
-					estoy buscando oportunidades que me permitan adquirir
-					experiencia profesional mientras sigo perfeccionando mis
-					habilidades.
+					Estoy ampliando mis habilidades hacia desarrollo móvil con Android Studio y reforzando conceptos de UI/UX para mejorar la experiencia de usuario en mis proyectos.
 				</p>
 				<p>
-					¡Estoy listo para aportar mis conocimientos y contribuir a
-					tu equipo para lograr grandes resultados juntos!
+					Busco seguir creciendo profesionalmente y aplicar mis conocimientos en soluciones útiles y sostenibles.
 				</p>
 			</div>
 		</section>

@@ -2,6 +2,7 @@ import React from "react";
 import pi from "../assets/PI LADING.webp";
 import pf from "../assets/Facil Market.webp";
 import dv from "../assets/DV.webp";
+import integrate from "../assets/integrate.png";
 import "../styles/portfolio.css";
 
 const Portfolio: React.FC = () => {
@@ -108,6 +109,37 @@ const Portfolio: React.FC = () => {
 						</div>
 					</div>
 				</div>
+
+				<div className="portfolio-box">
+					<img src={integrate} alt="imagen_integrate"/>
+					<div className="portfolio-layer">
+						<h4>Integrate</h4>
+						<p>
+							Proyecto académico que consiste en un blog dedicado a la música, donde los usuarios pueden compartir artículos, escribir reseñas y dejar comentarios. También incluye funciones sociales como dar 'me gusta' e interactuar con otros miembros de la comunidad.
+						</p>
+						<div className="buttons">
+							<div className="button">
+								<a
+									href="https://github.com/Glutix/blog-musical"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									<i className="bx bxs-folder-open"></i>
+								</a>
+							</div>
+							<div className="button">
+								<a
+									href="https://integrate.pythonanywhere.com/"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									<i className="bx bx-link-external"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
 			</div>
 		</section>
 	);

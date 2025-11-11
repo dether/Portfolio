@@ -23,6 +23,7 @@
 
 .icon-large {
 	font-size: 78px;
+	width:100px;
 	transition: transform 0.5s ease;
 	color: var(--text-color);
 }
