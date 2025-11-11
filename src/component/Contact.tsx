@@ -61,13 +61,13 @@ const Contact: React.FC = () => {
 					}
 				}
 				if (element.name === "mobile_number") {
-					const mobileRegex = /^\+\d{8,}$/;
+					const mobileRegex = /^\+?\d{8,15}$/; // + opcional, 8 a 15 dígitos
 					if (element.value.trim() === "") {
 						tempErrors.mobileNumber =
-							"Agrega un número de teléfono móvil";
+							"Agrega un número de teléfono con código de área";
 					} else if (!mobileRegex.test(element.value)) {
 						tempErrors.mobileNumber =
-							"Número de teléfono móvil inválido";
+							"Número de teléfono inválido (solo números, opcional + al inicio)";
 					}
 				}
 				if (
