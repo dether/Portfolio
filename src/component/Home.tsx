@@ -8,7 +8,7 @@ const EMAIL = import.meta.env.VITE_EMAIL;
 const Home: React.FC = () => {
 	const [isCopied, setIsCopied] = useState(false);
 
-	const handleCopyEmail = () => {
+	/* const handleCopyEmail = () => {
 		const email = EMAIL;
 		navigator.clipboard
 			.writeText(email)
@@ -24,7 +24,7 @@ const Home: React.FC = () => {
 					error
 				);
 			});
-	};
+	}; */
 
 	return (
 		<section className="home" id="home">
